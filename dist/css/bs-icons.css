@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "bs-icons";
+  src: url('../fonts/bs-icons.eot');
+  src: url('../fonts/bs-icons.eot?#iefix') format('eot'),
+    url('../fonts/bs-icons.woff') format('woff'),
+    url('../fonts/bs-icons.ttf') format('truetype'),
+    url('../fonts/bs-icons.svg#bs-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bsicon:before {
+  display: inline-block;
+  font-family: "bs-icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bsicon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.bsicon-2x { font-size: 2em; }
+.bsicon-3x { font-size: 3em; }
+.bsicon-4x { font-size: 4em; }
+.bsicon-5x { font-size: 5em; }
+.bsicon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.bsicon-camera:before { content: "\F001" }
+.bsicon-glyph02:before { content: "\EA01" }

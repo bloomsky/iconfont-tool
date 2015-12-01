@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "hex-icons";
+  src: url('../fonts/hex-icons.eot');
+  src: url('../fonts/hex-icons.eot?#iefix') format('eot'),
+    url('../fonts/hex-icons.woff') format('woff'),
+    url('../fonts/hex-icons.ttf') format('truetype'),
+    url('../fonts/hex-icons.svg#hex-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hexicon:before {
+  display: inline-block;
+  font-family: "hex-icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hexicon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.hexicon-2x { font-size: 2em; }
+.hexicon-3x { font-size: 3em; }
+.hexicon-4x { font-size: 4em; }
+.hexicon-5x { font-size: 5em; }
+.hexicon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.hexicon-hex:before { content: "\F001" }
+.hexicon-hex-empty:before { content: "\F002" }
+.hexicon-hex-no-foucs:before { content: "\F003" }
