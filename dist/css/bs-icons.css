@@ -33,5 +33,8 @@
   text-align: center;
 }
 
-.bsicon-camera:before { content: "\F001" }
-.bsicon-glyph02:before { content: "\EA01" }
+.bsicon-humidity:before { content: "\F101" }
+.bsicon-presure:before { content: "\F102" }
+.bsicon-uv:before { content: "\F103" }
+.bsicon-follow:before { content: "\F104" }
+.bsicon-play:before { content: "\F105" }
