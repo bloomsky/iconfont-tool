@@ -50,3 +50,7 @@
 .bsicon-uv:before { content: "\F103" }
 .bsicon-follow:before { content: "\F104" }
 .bsicon-play:before { content: "\F105" }
+.bsicon-back:before { content: "\F106" }
+.bsicon-zoomin:before { content: "\F107" }
+.bsicon-zoomout:before { content: "\F108" }
+.bsicon-current-location:before { content: "\F109" }
