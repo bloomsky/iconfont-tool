@@ -55,3 +55,6 @@
 .bsicon-zoomout:before { content: "\F108" }
 .bsicon-current-location:before { content: "\F109" }
 .bsicon-logo:before { content: "\F110" }
+.bsicon-close:before { content: "\F111" }
+.bsicon-marker:before { content: "\F112" }
+.bsicon-marker-inner:before { content: "\F113" }
